@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 202
+Audit-Id: ee9bdb81-5cfa-4336-a47d-0b7ae448d748
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 15 Sep 2021 16:00:33 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 0024584a-ca35-41da-a163-3d128678f8c8
+X-Kubernetes-Pf-Prioritylevel-Uid: 38f8938d-c7d9-4664-bad7-13fa99919f44
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"authentication.k8s.io/v1","resources":[{"name":"tokenreviews","singularName":"","namespaced":false,"kind":"TokenReview","verbs":["create"]}]}

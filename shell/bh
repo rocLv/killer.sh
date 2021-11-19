@@ -1,0 +1,36 @@
+2021-09-15.16:00:23 /home/k8s 
+2021-09-15.16:00:34 /home/k8s     1  kubectl config use-context k8s-c1-H && kubectl get node -owide && kubectl config use-context k8s-c2-AC && kubectl get node -owide && kubectl config use-context k8s-c3-CCC && kubectl get node -owide && kubectl config use-context k8s-c1-H
+2021-09-15.16:00:44 /home/k8s     2  lsb_release 
+2021-09-15.16:00:50 /home/k8s     3  cat /etc/lsb-release .
+2021-09-15.16:00:55 /home/k8s     4  kubectl config use-context k8s-c1-H && kubectl get pod -A | grep -v Running && kubectl config use-context k8s-c2-AC && kubectl get pod -A | grep -v Running && kubectl config use-context k8s-c3-CCC && kubectl get pod -A | grep -v Running && kubectl config use-context k8s-c1-H
+2021-09-15.16:00:55 /home/k8s     4  kubectl config use-context k8s-c1-H && kubectl get pod -A | grep -v Running && kubectl config use-context k8s-c2-AC && kubectl get pod -A | grep -v Running && kubectl config use-context k8s-c3-CCC && kubectl get pod -A | grep -v Running && kubectl config use-context k8s-c1-H
+2021-09-15.16:01:09 /home/k8s     5  kubectl config use-context k8s-c1-H && kubectl get pod -A && kubectl config use-context k8s-c2-AC && kubectl get pod -A && kubectl config use-context k8s-c3-CCC && kubectl get pod -A && kubectl config use-context k8s-c1-H
+2021-09-15.16:01:21 /home/k8s     6  clear
+2021-11-17.02:54:54 /home/k8s 
+2021-11-17.02:54:55 /home/k8s 
+2021-11-17.02:54:57 /home/k8s 
+2021-11-17.02:55:05 /home/k8s     1  ls
+2021-11-17.02:55:07 /home/k8s     2  ll
+2021-11-17.02:57:15 /home/k8s     3  vim .kube/config
+2021-11-17.02:57:27 /home/k8s/.ssh     4  cd .ssh/
+2021-11-17.02:57:29 /home/k8s/.ssh     5  ls
+2021-11-17.02:58:27 /home/k8s/.ssh     6  vim id_rsa.pub 
+2021-11-17.02:59:02 /home/k8s/.ssh     7  ssh root@8.218.249.155
+2021-11-17.02:59:18 /home/k8s/.ssh     7  ssh root@8.218.249.155
+2021-11-17.02:59:20 /home/k8s     8  cd ..
+2021-11-17.02:59:44 /home/k8s     9  vim .bash_logout 
+2021-11-17.02:59:49 /home/k8s     9  vim .bash_logout 
+2021-11-17.03:00:16 /home/k8s    10  vim /usr/bin/clear_console 
+2021-11-17.03:03:25 /home/k8s    11  scp -r .kube root@8.218.249.155:/root
+2021-11-17.03:05:38 /home/k8s    12  ls
+2021-11-17.03:05:41 /home/k8s    13  docker ps
+2021-11-17.03:06:04 /home/k8s    14  whoami
+2021-11-17.03:06:20 /home/k8s    15  docker images
+2021-11-17.03:06:54 /home/k8s    16  vim .profile 
+2021-11-17.03:06:57 /home/k8s    17  ls
+2021-11-17.03:06:59 /home/k8s    18  ll
+2021-11-17.03:08:42 /home/k8s    19  vim .bashrc 
+2021-11-17.03:09:56 /home/k8s/.shell    20  cd .shell/
+2021-11-17.03:09:57 /home/k8s/.shell    21  ls
+2021-11-17.03:10:40 /home/k8s/.shell    22  vim bh
+2021-11-17.03:11:11 /home/k8s/.shell    22  vim bh
